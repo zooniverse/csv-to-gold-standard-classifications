@@ -16,10 +16,10 @@ node index.js to/data.csv to/ids.csv to/annotator.js > gold-standard.json
 
 **ids.csv** associates subject IDs with _n_ fields from data.csv. Enough to make a unique match. The first field with only numbers is assumed to be the ID.
 
-| ID | Filename |
-| -- | -------- |
-| 1  | Foo.jpg  |
-| 2  | Bar.jpg  |
+| ID  | Filename |
+| --- | -------- |
+| 1   | Foo.jpg  |
+| 2   | Bar.jpg  |
 
 **annotator.js** exports a function to take a row from data.csv and generate an array of annotations. The output of this will depend entirely on your workflow.
 
