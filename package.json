@@ -1,0 +1,6 @@
+{
+  "name": "csv-to-gold-standard-classifications",
+  "dependencies": {
+    "babyparse": "~0.4.3"
+  }
+}
